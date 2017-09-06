@@ -1,0 +1,32 @@
+{
+	"name": "is-public-repo",
+	"version": "0.0.0",
+	"description": "Check if GitHub repository is public",
+	"license": "MIT",
+	"repository": "vadimdemedes/is-public-repo",
+	"author": {
+		"name": "Vadim Demedes",
+		"email": "vdemedes@gmail.com",
+		"url": "github.com/vadimdemedes"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"github",
+		"git"
+	],
+	"dependencies": {
+		"got": "^7.1.0"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
+}

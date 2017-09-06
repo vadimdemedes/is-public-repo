@@ -1,6 +1,6 @@
 {
 	"name": "is-public-repo",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Check if GitHub repository is public",
 	"license": "MIT",
 	"repository": "vadimdemedes/is-public-repo",
